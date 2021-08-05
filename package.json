@@ -10,12 +10,7 @@
     "lint:staged": "lint-staged"
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "eslint --ignore-path .gitignore --fix"
-      ]
-    },
-    "ignore": []
+    "*.js": "eslint --fix"
   },
   "dependencies": {
     "eslint-watch": "^7.0.0",
