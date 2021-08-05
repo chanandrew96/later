@@ -6,12 +6,13 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:staged": "lint-staged"
   },
   "lint-staged": {
     "linters": {
       "*.js": [
-        "npx eslint . --fix"
+        "eslint --ignore-path .gitignore --fix"
       ]
     },
     "ignore": []
