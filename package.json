@@ -11,7 +11,7 @@
   "lint-staged": {
     "linters": {
       "*.js": [
-        "eslint . --fix"
+        "node_modules/.bin/eslint . --fix"
       ]
     },
     "ignore": []
