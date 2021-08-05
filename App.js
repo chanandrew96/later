@@ -35,6 +35,7 @@ export const Example = () => {
 };
 
 export default function App() {
+	console.log("Add this console to test lint-staged commit");
 	return (
 		<NativeBaseProvider config={config}>
 			<VStack w="100%">
