@@ -16,7 +16,6 @@
     },
     "ignore": []
   },
-  "pre-commit": "lint:staged",
   "dependencies": {
     "eslint-watch": "^7.0.0",
     "expo": "~42.0.1",

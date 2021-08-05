@@ -17,6 +17,6 @@ export default class InputBox extends React.Component {
 
 				</Input>
 			</>
-		);
+		)
 	}
 }
