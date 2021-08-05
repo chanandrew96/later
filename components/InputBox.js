@@ -5,7 +5,7 @@ export default class InputBox extends React.Component {
 	constructor(props) {
 		super(props);
 		this.props = props;
-		this.state = {...props};
+		this.state = { ...props };
 	}
 
 	render() {
